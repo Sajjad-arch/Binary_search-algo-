@@ -11,7 +11,8 @@ int main(void)
     int key=10;
     int pos;
 
-    pos=bin_search(vec, key, 0, vec.size()-1);///vec.size()-1 -> last index, 0 ->first index
+    pos=bin_search(vec, key, 0, vec.size()-1);  /*vec.size()-1 -> last index, 0 ->first index   this function is most likely what we need for
+    for running the "Pos" operation */
 
     cout<<pos;
 }
@@ -45,3 +46,4 @@ we will used many parameters like k,low,high*/
   return -1;
 
 }
+
